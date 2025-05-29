@@ -26,7 +26,7 @@ RouteToMarket is a Flutter application designed to help users manage and track c
 
 ## Getting Started
 
-- Download apk from assets (Debug version 1.0.0) in this repository.
+- Download apk from assets (Debug version 1.0.0) in this repository OR download [here](https://github.com/mainajonny/rtmsolutech/releases/download/untagged-776e15e57e18c1c4fa67/routetomarket.apk).
 - Install the apk on your android device.
 - Authenticate with Google OR Register as a new user and Login with that user.
 - Add visits and explore visits features.
