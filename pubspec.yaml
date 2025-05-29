@@ -1,0 +1,101 @@
+name: routetomarket
+description: "A visits Tracker feature for a Route-to-Market (RTM) Sales Force Automation app. Design and structure your solution as though this feature is part of a larger, scalable application."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.6
+  dio: ^5.3.4
+  get: ^4.6.6
+  loading_indicator: ^3.1.1
+  intl: ^0.19.0
+  dropdown_search: ^6.0.1
+  multi_dropdown: ^3.0.1
+  fluttertoast: ^8.2.12
+
+flutter_launcher_icons:
+  image_path: "assets/images/solutech_logo.png"
+  remove_alpha_ios: true
+  android:
+    generate: true
+  ios:
+    generate: true
+# To rebuild the app icon run :: dart run flutter_launcher_icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner:
+  json_serializable:
+  built_value_generator: ^8.4.2
+
+  # See `analysis_options.yaml` for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+
+
+
+# Native splash
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/solutech_logo.png
+
+  #Android 12+ does not support background images
+  android_12:
+    icon_background_color: "#FFFFFF"
+    color: "#FFFFFF"
+
+  android: true
+  ios: true
+  web: false
+
+  image_android: assets/images/solutech_logo.png
+  image_dark_android: assets/images/solutech_logo.png
+  image_ios: assets/images/solutech_logo.png
+  image_dark_ios: assets/images/solutech_logo.png
+
+  android_gravity: fill
+  
+  ios_content_mode: center
+  
+  fullscreen: true
+# To rebuild the app splash screen run :: dart run flutter_native_splash:create
