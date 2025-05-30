@@ -1,4 +1,4 @@
-![Simulator Screenshot - iPhone 16 Plus - 2025-05-29 at 22 23 30](https://github.com/user-attachments/assets/3daca8ff-da41-4b4f-9e90-b10116e8c523)# RouteToMarket
+# RouteToMarket
 
 RouteToMarket is a Flutter application designed to help users manage and track customer visits effectively. With this app, users can log new visits, keep track of activities during each visit, view statistics, and easily search or filter through their visit history.
 
@@ -19,19 +19,34 @@ RouteToMarket is a Flutter application designed to help users manage and track c
 - **Search & Filter Visits**  
   Users can quickly find specific visits using the search feature or apply filters by date, status, customer name, etc.
 
-![Simulator Screenshot - iPhone 16 Plus - 2025-05-29 at 22 23 08](https://github.com/user-attachments/assets/74a14d00-cfb1-4c6f-85bc-b0f509b74486)
-![Simulator Screenshot - iPhone 16 Plus - 2025-05-29 at 22 23 30](https://github.com/user-attachments/assets/9757a5a9-e8f3-47c2-b2c4-3067a4fbfefe)
-![Simulator Screenshot - iPhone 16 Plus - 2025-05-29 at 22 23 35](https://github.com/user-attachments/assets/46e72ff9-90f6-431f-9af6-34896698aa9f)
-![Simulator Screenshot - iPhone 16 Plus - 2025-05-29 at 22 24 13](https://github.com/user-attachments/assets/f746fcb0-9dee-4996-a49a-cfb33655aa17)
+## 📱 Screenshots
 
-## Getting Started
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/74a14d00-cfb1-4c6f-85bc-b0f509b74486" width="24%" alt="Screenshot 1"/>
+  <img src="https://github.com/user-attachments/assets/9757a5a9-e8f3-47c2-b2c4-3067a4fbfefe" width="24%" alt="Screenshot 2"/>
+  <img src="https://github.com/user-attachments/assets/46e72ff9-90f6-431f-9af6-34896698aa9f" width="24%" alt="Screenshot 3"/>
+  <img src="https://github.com/user-attachments/assets/f746fcb0-9dee-4996-a49a-cfb33655aa17" width="24%" alt="Screenshot 4"/>
+</p>
 
-- Download apk from assets (Debug version 1.0.0) in this repository OR download [here](https://github.com/mainajonny/rtmsolutech/releases/download/untagged-776e15e57e18c1c4fa67/routetomarket.apk).
-- Install the apk on your android device.
-- Authenticate with Google OR Register as a new user and Login with that user.
-- Add visits and explore visits features.
+## 🚀 Getting Started
 
-### Installation
+- Download the APK from the assets (Debug version 1.0.0) in this repository OR download it [here](https://github.com/mainajonny/rtmsolutech/releases/download/untagged-776e15e57e18c1c4fa67/routetomarket.apk).
+- Install the APK on your Android device.
+- Authenticate with Google **OR** register as a new user and log in.
+- Add visits and explore all features.
+
+## Assumptions
+
+- Adding activities is done separately as a feature
+- Adding customers is done separately as a feature
+- All new visits are pending and can later be updated to cancelled or completed
+
+- Download the APK from the assets (Debug version 1.0.0) in this repository OR download it [here](https://github.com/mainajonny/rtmsolutech/releases/download/untagged-776e15e57e18c1c4fa67/routetomarket.apk).
+- Install the APK on your Android device.
+- Authenticate with Google **OR** register as a new user and log in.
+- Add visits and explore all features.
+
+## 🛠️ Installation
 
 1. **Clone the repository:**
    ```bash
